@@ -1,0 +1,827 @@
+/*=========================================
+	End Code from Monayem
+===========================================*/
+
+/*START CAPTCHA CODE*/
+.grecaptcha-badge{
+	visibility: hidden;
+}
+
+/*END CAPTCHA CODE*/
+
+/*START FORM COMMON STYLE*/
+.form-row{
+	display: flex;
+	width:100%;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+.form-row .grid-100{
+	width: 100%;
+}
+.form-row .grid-50{
+	width: 50%;
+}
+.form-row .wpcf7-list-item-label{
+	color:#000000;
+}
+.form-row.input-acceptance{
+	margin:30px 0px;
+	display: block;
+}
+
+.form-row button{
+	border:0px;
+	border-radius: 0px;
+	text-align: center;
+	background:#BA8D46;
+	font-weight: normal;
+	color:#fff;
+	font-size: 18px;
+	padding:11px 77px;
+}
+.dsm_contact_form_7 .wpcf7-form-control.wpcf7-submit{
+	color:#fff;
+}
+.form-row button.et_pb_bg_layout_light.et_pb_button:hover{
+	background:#BA8D46;
+	padding:11px 77px;
+	border:0px;
+}
+
+.form-row input:-webkit-autofill,
+.form-row input:-webkit-autofill:hover, 
+.form-row input:-webkit-autofill:focus, 
+.form-row input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #000000;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: none;
+}
+.form-row.form-title h4{
+	font-size: 20px;
+	font-weight: 700;
+	color:#17494D;
+	font-family: 'IBM Plex Sans Thai',Helvetica,Arial,Lucida,sans-serif;
+	line-height: 1.5em;
+}
+
+
+
+@media(max-width:767px){
+	.form-row{
+		flex-direction: column;
+		margin-bottom: 0px;
+	}
+	.form-row .grid-50{
+		width: 100%;
+	}
+}
+
+/*END FORM COMMON STYLE*/
+
+/*START RESET STYLE*/
+@media(max-width:767px){
+	header .et_pb_menu_0_tb_header{
+		margin-right:0px !important;
+	}
+}
+
+.pricing-form .submit-btn-nxt{
+	cursor: pointer;
+}
+
+.user-agree label,
+.page-id-7927 .dsm_contact_form_7 label
+{
+	display: inline;
+	align-items: center;
+	margin:0px;
+	padding:0px;
+	justify-content: center;
+	line-height: normal;
+}
+.user-agree .wpcf7-list-item-label,
+.page-id-7927 .dsm_contact_form_7 .wpcf7-list-item-label
+{
+	margin:0px;
+	padding:0px;
+	line-height: normal;
+}
+.user-agree input[type="checkbox"],
+.page-id-7927 .dsm_contact_form_7 input[type="checkbox"]
+{
+	padding:0px;
+	margin:0px;
+	line-height: normal;
+	margin-right: 8px;
+}
+
+#html5-watermark{
+	display: none !important;
+}
+
+/*END RESET STYLE*/
+
+/*Start Menu Style*/
+.et_pb_menu--without-logo .et_pb_menu__menu > nav > ul > li > a{
+	padding-bottom: 8px;
+}
+.et_pb_menu_0_tb_header.et_pb_menu ul li a{
+	color:#000;
+	font-family: 'IBM Plex Sans',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 18px;
+	color: #222222 !important;
+	font-weight: 500;
+}
+.et_pb_menu_0_tb_header.et_pb_menu .nav li ul{
+	background-color: #FFFFFF !important;
+	border-color: #17494D;
+}
+body .et_pb_menu_0_tb_header .mobile_nav .mobile_menu_bar::before{
+	color:#000000;
+}
+.et_mobile_menu{
+	border-color: #17494D;
+}
+/*End Menu Style*/
+/*Start Form Common Style */
+.wpcf7-form{
+	margin:25px 0px;
+}
+.wpcf7-form .user-agree .wpcf7-list-item-label{
+	font-size:15px;
+	line-height: 0px;
+}
+.user-f-name,
+.user-l-name,
+.user-phone-number,
+.user-company,
+.phone-number,
+.company-name,
+.i-am-a,
+.i-plan-to
+{
+	width:44%;
+	display: inline-block;
+	background:transparent;
+}
+.Business-Type{
+	margin-bottom:15px;
+	margin-top:5px;
+}
+.Business-Type select{
+	padding:10px;
+	padding-left:0px;
+}
+.user-phone-number,
+.phone-number,
+.user-f-name,
+.i-am-a
+{
+	margin-right:11%;
+}
+.dsm_contact_form_7 .wpcf7-form-control.wpcf7-select,
+.dsm_contact_form_7 input[type="text"],
+.dsm_contact_form_7 input[type="email"],
+.dsm_contact_form_7 select,
+input.text, 
+input.title, 
+input[type="email"], 
+input[type="password"], 
+input[type="tel"], 
+input[type="text"], 
+select, 
+textarea{
+	background:transparent;
+	border:0px;
+	padding:15px 0px;
+	border-bottom:1px solid #999;
+	color:rgba(0,0,0,0.7);
+	width:100%;
+	display:inline-block;
+	margin-bottom:4px;
+	font-weight:500;
+	font-size:16px;
+}
+
+.wpcf7-form a{
+	color:#BA8D46;
+}
+.wpcf7-list-item{
+	margin:0px;
+}
+.wpcf7-form .submit-btn{
+	width:282px;
+	height:52px;
+	background: #BA8D46;
+	border-radius:0px;
+	border:0px;
+	color:#fff;
+	cursor:pointer;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	padding:0px;
+	text-align: center;
+}
+
+.wpcf7-form  .submit-btn:hover{
+	background: #BA8D46;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+.wpcf7-form a{
+	text-decoration:underline;
+}
+
+.et_pb_blurb_content{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.wpcf7 form.sent .wpcf7-response-output{
+	margin-left:0px;
+}
+#dm-popup .wpcf7-form{
+	top: -30px;
+}
+#dm-popup .wpcf7-form .submit-btn{
+	margin-top:30px;
+}
+.wpcf7-form .user-agreement,
+.wpcf7-form .user-agree,
+.user-agreement,
+.user-agree,
+.user-agreemnet
+{
+    color:#000;
+    font-weight: normal;
+}
+
+
+.et_pb_button:hover:after,
+.et_pb_button::after, 
+.et_pb_button::before{
+	content:none;
+}
+
+
+@media(max-width:767px){
+	
+	.wpcf7-form{
+		margin:initial;
+	}
+	#dm-popup .wpcf7-form{
+		top:unset;
+	}
+
+	.user-f-name,
+	.user-l-name,
+	.user-phone-number,
+	.user-company,
+	.company-name,
+	.phone-number,
+	.i-am-a,
+	.i-plan-to
+	{
+		width:100%;
+		display: block;
+	}
+	.user-phone-number,
+	.user-f-name,
+	.i-am-a
+	{
+		margin-right:0px;
+	}
+}
+
+@media(max-width:991px){
+
+	#dm-popup .wpcf7-form{
+		top:unset;
+	}
+
+
+	.wpcf7-form{
+		margin:initial;
+	}
+	#dm-popup .wpcf7-form .submit-btn{
+		margin:15px 0px;
+	}
+
+}
+
+/*End Form Common Style*/
+
+
+/*Start Footer Style*/
+footer .footer-link-style a{
+	color:#17494D;
+}
+
+@media(max-width:767px){
+    footer .et_pb_gutters3 .et_pb_column_1_2 .et_pb_module,
+    footer .et_pb_image_0_tb_footer{
+        margin:0 auto;
+    }
+}
+
+
+/*End Footer Style*/
+
+.page-id-8212 #dm-popup .wpcf7-form,
+.page-id-7927 #dm-popup .wpcf7-form,
+.page-id-8039 #dm-popup .wpcf7-form
+{
+	top:unset;
+}
+.page-id-8212 #dm-popup .wpcf7-form .submit-btn,
+.page-id-7927 #dm-popup .wpcf7-form .submit-btn,
+.page-id-8039 #dm-popup .wpcf7-form .submit-btn
+{
+	margin:initial;
+}
+
+
+/*START Download V2 Page Style*/
+
+/*Start Product Section*/
+.product-section{
+	background: #F8F4EC;
+	border-radius: 24px;
+	border: 4px solid #BA8D4617;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.product-section .heading{
+	font-weight: 700;
+}
+.product-section .product-block{
+	padding:30px 0px;
+}
+.btn-product-price sup{
+	color:red;
+	font-size:10px;
+}
+.business-footer-image{
+  display:flex;
+  justify-content:flex-end;
+  position:relative;
+}
+.btn-download-now{
+  background:#BA8D46;
+  display:inline-block;
+  text-align:center;
+  color:#fff;
+  font-weight:600;
+  cursor:pointer;
+}
+.et_pb_button.btn-download-now:hover{
+   background:#BA8D46;
+}
+/*End Product Section*/
+
+@media(max-width:767px){
+
+	.wpcf7-form .submit-btn{
+		width:218px;
+	}
+  
+  .et_pb_button_module_wrapper,  
+  a.btn-download-now{
+	display:table;
+    margin: 0 auto;
+  }
+  .page-id-8275 .et_pb_button_module_wrapper,  
+  .page-id-8275 .btn-download-now{
+	display: block;
+  }
+
+
+  .business-footer-image{
+    justify-content:center;
+  }
+  .et_pb_section_4.et_pb_section{
+    padding:0px;
+  }
+  .download-form-heading h3{
+    font-size:18px;
+  }
+  .product-section{
+	margin-top:50px;
+  }
+
+}
+.page-id-8275  .dsm_contact_form_7_0 .wpcf7-form p:nth-last-of-type(1),
+.page-id-8275 .submit-btn-container{
+	text-align: left;
+}
+
+
+.wpcf7-form .user-agree .wpcf7-list-item-label {
+    font-size: 15px;
+	font-weight:normal
+}
+
+
+/*START STARTER KIT SECTION STYLE*/
+body.page-id-8275 #page-container .et_pb_section .et_pb_button_4.starter-download-button,
+body #page-container .et_pb_section .et_pb_button_3.starter-download-button, 
+body #page-container .et_pb_section .et_pb_button_3.starter-download-button:hover
+{
+	padding:11px;
+	width:350px;
+	text-align: center;
+	font-weight: 600 !important;
+	font-family: 'IBM Plex Sans Thai',Helvetica,Arial,Lucida,sans-serif !important;
+}
+
+@media(max-width:767px){
+	body.page-id-8275 #page-container .et_pb_section .et_pb_button_4.starter-download-button,
+	body #page-container .et_pb_section .et_pb_button_3.starter-download-button, 
+	body #page-container .et_pb_section .et_pb_button_3.starter-download-button:hover
+	{
+		width: 218px;
+	}
+}
+.starter-kit-section p{
+	font-size: 18px;
+}
+
+/*END STARTER KIT SECTION STYLE*/
+
+.starter-kit-col-2{
+	display: flex;
+	justify-content: center;
+}
+.starter-kit-section .et_pb_text h2{
+	line-height: 1.3em;
+	text-transform: capitalize;
+}
+
+/*START STARTER FORM STYLE*/
+#starter-popup .starter-form-title{
+	margin-bottom:0px;
+}
+.starter-form .wpcf7-form input[type="text"],
+.starter-form .wpcf7-form input[type="email"],
+.starter-form .wpcf7-form{
+	margin:0px;
+}
+.starter-form .wpcf7-form p{
+	padding-bottom:0px;
+	margin-bottom: 30px;
+}
+.starter-form .wpcf7-form p.user-name{
+	margin-bottom: 15px;
+    margin-top: 10px;
+}
+.starter-form .wpcf7-form  .wpcf7-spinner{
+	margin-top:30px;
+	margin-left:0px;
+	display: block;
+}
+.starter-form .et_pb_button:hover:after{
+	content:none;
+}
+#starter-popup .starter-form  .wpcf7-response-output{
+	margin:0px;
+}
+/*END STARTER FORM STYLE*/
+
+
+.page-id-8275 #dm-popup .wpcf7-form{
+	top:unset;
+}
+
+
+.ecpdt-section{
+	position: relative;
+}
+.ecpdt-section::before{
+	content: url(https://6senseev.com/wp-content/uploads/2023/09/etpv_icon.png);
+	width:318px;
+	height: 387px;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+@media(max-width:767px){
+	.ecpdt-section::before{
+		content:unset;
+	}
+}
+
+.btn-dwpage.et_pb_button,
+.btn-dwpage.et_pb_button_0
+{
+	background: #BA8D46;
+    padding: 11px 44px;
+    border-radius: 0px;
+    border: 0px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+	margin-top:10px;
+	font-size: 18px;
+}
+.btn-dwpage.et_pb_button:hover,
+.btn-dwpage.et_pb_button_0:hover
+{
+	padding: 11px 44px;
+	background: #BA8D46;
+	border:0px;
+}
+
+.dw-pr-col-1,
+.dw-pr-col-2,
+.dw-pr-col-3
+{
+	position: relative;
+}
+.dw-pr-col-1::before,
+.dw-pr-col-2::before,
+.dw-pr-col-3::before
+{
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	content: url(https://6senseev.com/wp-content/uploads/2023/09/Product_Booklet_Inside_Icon.png);
+	top:25%;
+	right:-9%;
+}
+.dw-pr-col-2::before,
+.dw-pr-col-3::before{
+    right: -19%;
+}
+.dw-pr-text.et_pb_column, 
+.dw-pr-text.et_pb_module
+{
+	padding:30px 0px 15px !important;
+}
+
+@media(max-width:767px){
+	.dw-pr-text.et_pb_column, 
+	.dw-pr-text.et_pb_module
+	{
+		padding:15px 0px !important;
+	}
+	.dw-pr-col-1::before, .dw-pr-col-2::before, .dw-pr-col-3::before{
+		top:unset;
+		right:unset;
+		bottom:-10px;
+		left:42%;
+	}
+	.dw-product-heading h3{
+		font-size: 21px;
+		line-height: 1.3em;
+	}
+}
+/*Form Style*/
+.dsm_contact_form_7_0.download-page-form .wpcf7-list-item-label{
+	font-weight: normal;
+	position: relative;
+	top:-1px;
+}
+body #page-container .et_pb_section .dsm_contact_form_7_0.download-page-form .wpcf7-form-control.wpcf7-submit:hover,
+body #page-container .et_pb_section .dsm_contact_form_7_0.download-page-form .wpcf7-form-control.wpcf7-submit{
+	padding: 11px 80px !important;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+@media(max-width:767px){
+	.dsm_contact_form_7_0.download-page-form .wpcf7-list-item-label{
+		top: -1.8px;
+	}
+}
+
+@media (min-width:961px){
+	.download-page-form-row-2{
+		margin-top: -15px;
+	}
+}
+
+
+/*End Download V2 Page Style*/
+
+/* Start Evstartup-lp002 Page Style*/
+
+.page-id-7927 .wpcf7-form{
+    margin-bottom:0px;
+}
+
+.page-id-7927 .wpcf7-form .user-name,
+.page-id-7927 .wpcf7-form .user-mail,
+.page-id-7927 .wpcf7-form .user-agreement
+{
+	padding:0px;
+	margin:0px;
+	margin-bottom:10px;
+}
+
+.page-id-7927 .wpcf7-form .user-name input,
+.page-id-7927 .wpcf7-form .user-mail input{
+	margin:0px;
+}
+.page-id-7927 .wpcf7-form .user-agreement{
+	display:block;
+	padding:15px 0px;
+}
+.page-id-7927 .wpcf7-form .wpcf7-spinner{
+    display: none;
+}
+@media(max-width:767px){
+	.page-id-7927 .wpcf7-form .submit-btn{
+		width:100%;
+	}
+	.page-id-7927 .wpcf7-form .submit-btn:hover{
+		padding:initial;
+		margin:initial;
+		border:0px;
+	}
+	.page-id-7927 .wpcf7-form .user-name{
+		margin-top:20px;
+	}
+}
+
+/* End Evstartup-lp002 Page Style*/
+
+
+/*START THANK YOU PAGE STYLE*/
+.thank-you-msg a span{
+	color:#17494D;
+	font-weight: bold;
+}
+/*END THANK YOU PAGE STYLE*/
+
+/*FAQ SECTION STYLE*/
+.faq-section .et_pb_toggle_content p{
+	font-family: 'Inter',Helvetica,Arial,Lucida,sans-serif;
+	font-weight:500;
+}
+/*FAQ SECTION STYLE*/
+
+/*START BLOG PAGE STYLE*/
+.page-id-6643 .sidebar-newsletter.dsm_contact_form_7 input[type="email"]{
+	color:#fff;
+}
+
+.page-id-6643 .sidebar-newsletter.dsm_contact_form_7 input:-webkit-autofill,
+.page-id-6643 .sidebar-newsletter.dsm_contact_form_7 input:-webkit-autofill:hover, 
+.page-id-6643 .sidebar-newsletter.dsm_contact_form_7 input:-webkit-autofill:focus, 
+.page-id-6643 .sidebar-newsletter.dsm_contact_form_7 input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: none;
+}
+
+body.page-id-6643 #page-container .et_pb_section .dsm_contact_form_7_0 .wpcf7-form-control.wpcf7-submit{
+	margin:0 auto;
+	display: table;
+}
+.page-id-6643 .sidebar-newsletter .wpcf7-response-output{
+	color:#fff;
+	margin:0px;
+}
+.page-id-6643 .sidebar-newsletter .wpcf7-spinner{
+	margin:10px auto;
+	display: table;
+}
+/*END BLOG PAGE STYLE*/
+
+
+/*------------------------------------
+	START PRODUCT BOOKLET PAGE STYLE
+--------------------------------------*/
+
+/*START PRODUCT BOOKLET FORM SECTION*/
+.booklet-form-section .pb-download-form .form-row .grid-50{
+	width: 45%;
+}
+@media(max-width:767px){
+	.booklet-form-section .pb-download-form .form-row .grid-50{
+		width: 100%;
+	}
+	.booklet-form-section .pb-download-form{
+		padding:0px 25px;
+	}
+}
+/*END PRODUCT BOOKLET FORM SECTION*/
+
+/*START PRODUCT BOOKLET INSIDE SECTION*/
+.pbi-col{
+	position: relative;
+}
+.pbi-col::before{
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	content: url(https://6senseev.com/wp-content/uploads/2023/09/Product_Booklet_Inside_Icon.png);
+	top:30%;
+	right:-12%;
+}
+.page-id-9400 .download_other_resources_title{
+	font-size: 24px !important;
+}
+
+.download_other_resources_button{
+	border:0px !important;
+	border-bottom: 2px solid #BA8D46 !important;
+	padding:0px !important;
+	
+}
+@media(min-width:991px){
+
+	.product_booklet_section {
+		padding:60px 0px;
+	}
+}
+
+
+@media(max-width:767px){
+
+	.pbi-row-2{
+		padding-top:15px;
+	}
+
+	.pbi-col .et_pb_module,
+	.pbi-col-3 .et_pb_module
+	{
+		margin-bottom:0px;
+	}
+	.pbi-col{
+		margin-bottom: 50px;
+	}
+	.pbi-col::before{
+		top:unset;
+		right:unset;
+		left:45%;
+		bottom:-40px;
+	}
+	.download_other_resource_row_2 .et_pb_button_module_wrapper {
+		display: block;
+	}
+	.download_other_resource_col_1,  
+	.download_other_resource_col_2,  
+	.download_other_resource_col_3{
+		margin-bottom: 40px;
+	}  
+	.download_other_resource_col_1 .et_pb_image,
+	.download_other_resource_col_2 .et_pb_image,
+	.download_other_resource_col_3 .et_pb_image{
+		margin-bottom: 15px;
+	}
+
+}
+
+/*END PRODUCT BOOKLET INSIDE SECTION*/
+
+
+/*------------------------------------
+	END PRODUCT BOOKLET PAGE STYLE
+--------------------------------------*/
+
+/*START DOWNLOAD PAGE VIDEO STYLE*/
+
+.thank_you_page_video_col{
+	position: relative;
+}
+@media(min-width:981px){
+	.thank_you_page_video_section  .thank_you_page_video_image{
+		margin-bottom: 0px !important;
+	}
+}
+
+.thank_you_page_video_button{
+	position: absolute;
+	top:0px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+.thank_you_page_video_button img{
+	width: 96px;
+}
+
+@media(max-width:980px){
+	.thank_you_page_video_image{
+		margin-bottom: 0px  !important;
+	}
+	.thank_you_page_video_button img{
+		width: 48px;
+	}
+}
+
+/*END DOWNLOAD PAGE VIDEO STYLE*/
+
+
+/*=========================================
+	End Code from Monayem
+===========================================*/
