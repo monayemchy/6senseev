@@ -1,17 +1,37 @@
-<p class="user-f-name"> [text* user-f-name placeholder "* First Name"] </p>
+<div class="form-row">
+    <div class="grid-100">
+       [text* your-name class:required placeholder "* Your Name"]
+    </div>
+ </div>
+ 
+ <div class="form-row">
+    <div class="grid-100">
+       [text* business-email placeholder "* Business Email"]
+    </div>
+ </div>
+ 
+ <div class="form-row">
+    <div class="grid-100">
+        [select business-type "Business Type" "Startup" "Turnkey installer/provider" "Enterprise" "EV charger manufacturer" "Apartment/condo" "Parking operator" "Hospitality/retail" "School/university" "Gas station" "Fleet" "Real estate" "Other"]
+    </div>
+ </div>
+ 
+ <div class="form-row input-acceptance">
+    <div class="grid-100">
+        [acceptance your-consent] I consent to 6sense processing my personal data according to the <a href="/terms/">Privacy policy</a> [/acceptance]
+    </div>
+ </div>
 
-<p class="user-l-name"> [text* user-l-name placeholder "* Last Name"] </p>
 
-<p class="user-mail"> [email* user-mail placeholder "* Business Email"] </p>
+ [hidden text-tagfree "global_contact"]
+ [hidden text-leadsource "web"]
+ [hidden text-product "generic"]
+ [hidden text-lcs "lead"]
+ [hidden text-Websiteurl "https://6senseev.com/#"]
 
-<p class="Business-Type"> [select* Business-Type "* Business Type" "Startup" "Turnkey installer/provider" "Enterprise" "EV charger manufacturer" "Apartment/condo" "Parking operator" "Hospitality/retail" "School/university" "Gas station" "Fleet" "Real estate" "Other"] </p>
-[hidden text-tagfree "global_contact"]
-[hidden text-leadsource "web"]
-[hidden text-product "generic"]
-[hidden text-lcs "lead"]
-[hidden text-Websiteurl "https://6senseev.com/#"]
-
-<p class="user-agree"> [acceptance your-consent default:on consent_for:sendinblue] Get an NDA [/acceptance] </p>
-<p class="user-agreemnet"> [acceptance your-consent default:on consent_for:sendinblue] I consent to 6sense processing my personal data according to the <a href="/terms/">Privacy policy</a> [/acceptance] </p>
-
-[submit id:submit-btn class:submit-btn "Submit"]
+ 
+ <div class="form-row contact-form-btn">
+    <div class="grid-100">
+       [submit "Submit"]
+    </div>
+ </div>
