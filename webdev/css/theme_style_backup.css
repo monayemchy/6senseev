@@ -1,5 +1,5 @@
 /*=========================================
-	End Code from Monayem
+	Start Code from Monayem
 ===========================================*/
 
 /*START CAPTCHA CODE*/
@@ -863,8 +863,28 @@ body #page-container .et_pb_section .et_pb_button_1.btn_dw_pf:hover{
 	padding:11px 110px;
 }
 
+.form-row.contact-form-btn button.et_pb_bg_layout_light.et_pb_button:hover{
+	padding:11px 110px;
+
+}
 /*END CONTACT FORM STYLE*/
+
+
+
 
 /*=========================================
 	End Code from Monayem
 ===========================================*/
+
+
+/* ===========================================
+      Start Code from Morshed                
+===============================================*/
+
+#starter-popup{
+	padding: 11px;
+    width: 350px;
+    text-align: center;
+    font-weight: 600!important;
+    font-family: 'IBM Plex Sans Thai',Helvetica,Arial,Lucida,sans-serif!important;
+}
