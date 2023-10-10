@@ -78,6 +78,12 @@
 	}
 }
 
+@media(max-width:480px){
+	.form-row button{
+		font-size:16px;
+	}
+}
+
 /*END FORM COMMON STYLE*/
 
 /*START RESET STYLE*/
@@ -935,6 +941,60 @@ body.page-id-10463 #page-container .et_pb_section .et_pb_button_4.starter-downlo
 }
 
 /*END TURN GROWTH KEY PAGE STYLE*/
+
+
+/*START SUCCESS STORIES PAGE STYLE*/
+
+.success_stories_clab_section .et_pb_blurb_container,
+.success_stories_clab_section .et_pb_blurb_position_left .et_pb_blurb_container
+{
+	padding-left:0px;
+}
+.success_stories_clab_section .et_pb_main_blurb_image{
+	padding-top:3.5px;
+}
+.success_stories_clab_section .et_pb_blurb_description p{
+	line-height: 1.3em;
+}
+
+
+
+@media(min-width:991px){
+
+	.page-id-11053 .pbi-col::before{
+		top: 30%;
+		right: -16%;
+	}
+
+}
+
+@media(max-width:767px){
+	.page-id-11053 .s_str_frm_sec .et_pb_image_0 .et_pb_image_wrap img{
+		width:291px;
+		height:386px;
+	}
+	.success_stories_clab_section .et_pb_blurb_6.et_pb_blurb .et_pb_blurb_description{
+		text-align: justify;
+	}
+	.success_stories_clab_section.et_pb_section_6  .et_pb_row,
+	.success_stories_clab_section.et_pb_section_4  .et_pb_row
+
+	{
+		display: flex;
+		flex-flow: column-reverse;
+		gap: 40px;
+	}
+}
+
+@media(max-width:767px){
+	.success_stories_clab_section .et_pb_blurb_position_left .et_pb_main_blurb_image{
+		width:25px;
+	}
+}
+
+
+
+/*END SUCCESS STORIES PAGE STYLE*/
 
 
 /*=========================================
