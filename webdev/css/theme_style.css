@@ -995,8 +995,8 @@ body.page-id-10463 #page-container .et_pb_section .et_pb_button_4.starter-downlo
 /*END SUCCESS STORIES PAGE STYLE*/
 
 /*START MEETING WITH 30 MIN FORM STYLE*/
-.meeting-popup-form #dm-popup .wpcf7-form{
-	top:unset IM !important;
+#dm-popup .meeting-popup-form .wpcf7-form{
+	top:unset !important;
 }
 /*END MEETING WITH 30 MIN FORM STYLE*/
 
